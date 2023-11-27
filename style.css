@@ -38,9 +38,9 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
-  color: #fff; /* Juster farven efter billedet for bedre kontrast */
-  background: rgba(240, 220, 220, 0.805); /* Gennemsigtig baggrund for tekst */
-  max-width: 80%; /* Juster bredden efter behov */
+  color: #fff;
+  background: rgba(240, 220, 220, 0.805);
+  max-width: 80%;
   padding: 30px;
 }
 
@@ -79,7 +79,7 @@ p {
 }
 
 p.main-text {
-  padding-bottom: 25px; /* Tilføj padding kun til dette <p> element */
+  padding-bottom: 25px;
 }
 
 /* Video */
@@ -123,9 +123,9 @@ iframe {
 
 .layoutdiagram {
   /* border: 5px solid #c8a1a1; */
-  width: 100%; /* Fyld bredden af containeren */
-  max-width: 500px; /* Sæt en maksimal bredde for at undgå, at det fylder hele siden */
-  height: auto; /* Bevar aspektforholdet */
+  width: 100%;
+  max-width: 500px;
+  height: auto;
 }
 
 /* Footer */
