@@ -13,7 +13,7 @@ img {
 /* Web font */
 @font-face {
   font-family: "oswaldmedium";
-  src: url("oswald-medium-webfont.woff2") format("woff2"), url("oswald-medium-webfont.woff") format("woff");
+  src: url("font/oswald-medium-webfont.woff2") format("woff2"), url("font/oswald-medium-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
@@ -53,7 +53,6 @@ body {
   max-height: 500px;
 }
 
-/* Header */
 h1 {
   color: #c8a1a1;
   font-family: "oswaldmedium";
@@ -70,16 +69,15 @@ h2 {
 h3 {
   color: #4f4040;
   font-family: "Josefin Sans", sans-serif;
-  padding-bottom: 25px;
 }
 
 p {
   color: #4f4040;
   font-family: "Josefin Sans", sans-serif;
-  text-align: center;
 }
 
 p.main-text {
+  padding-top: 25px;
   padding-bottom: 25px;
 }
 
@@ -109,11 +107,11 @@ iframe {
   height: 600px;
   object-fit: cover;
   flex-grow: 1;
-  border: 5px solid #c8a1a1;
+  border: 5px solid #4f4040;
 }
 
 .layoutdiagram {
-  border: 5px solid #c8a1a1;
+  border: 5px solid #4f4040;
   width: 100%;
   max-width: 500px;
   height: auto;
